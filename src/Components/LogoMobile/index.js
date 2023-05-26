@@ -23,7 +23,7 @@ setShow(prev=>!prev)
         <span className="vertical">The</span> Siren
       </h1>
     </div>
-    <div onClick={handleMenu} className='MenuBar'>
+    <div onClick={()=>setShow(!show)} className='MenuBar'>
         <div className='Menu'></div>
         <div className='Menu'></div>
         <div className='Menu'></div>

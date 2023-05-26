@@ -25,8 +25,8 @@ const AppRoutes = () => {
 
             <Route path='/Food' element={<Food/>}/>
             <Route path="/Food/:id" element={<StaticPage/>}/>
-            
-            <Route path='/common' element={<StaticPage/>}/>
+{/*             
+            <Route path='/common' element={<StaticPage/>}/> */}
 
             <Route path="*" element={<PageNotFound/>}/>
         </Routes>
