@@ -25,7 +25,7 @@ const CommonPage = () => {
         <div className='flexProperty'>
             <hr className='commonPageHr'/>
         </div>
-        <div className='mainContainer'>
+        <div className='mainContainer blogDescrCont'>
         <div className='commonContainer'>
             <div>
                 <h1 className='theComHeading'>{location.state.title}</h1>

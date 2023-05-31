@@ -1,6 +1,5 @@
-import React, { useContext } from 'react'
-import { AppData } from '../../Components/Data'
-import { Logo, LogoMobile, TopNavigation } from '../../Components'
+import React from 'react'
+import { Footer, Logo, LogoMobile, TopNavigation } from '../../Components'
 import ArticleList from './ArticleList'
 import TopPost from './TopPost'
 import '../../App.css'
@@ -24,6 +23,7 @@ function Bollywood() {
       </div>
 
       </Store>
+      <Footer/>
 
 
     </>

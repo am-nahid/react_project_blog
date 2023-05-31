@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, TopNavigation , LogoMobile} from '../../Components'
+import { Logo, TopNavigation , LogoMobile, Footer} from '../../Components'
 import HollyArticleList from './HollyArticleList'
 import HollyTopPost from './HollyTopPost'
 import Store from '../../Utility/ContextStore/contextAPI'
@@ -20,6 +20,7 @@ const Hollywood = () => {
     </div>
     </div>
     </Store>
+    <Footer/>
     </>
   )
 }

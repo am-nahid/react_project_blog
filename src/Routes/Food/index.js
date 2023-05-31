@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, TopNavigation , LogoMobile} from '../../Components'
+import { Logo, TopNavigation , LogoMobile, Footer} from '../../Components'
 import FoodArticleList from './FoodArticleList'
 import FoodTopPost from './FoodTopPosts'
 import Store from '../../Utility/ContextStore/contextAPI'
@@ -20,6 +20,7 @@ const Food = () => {
     </div>
     </div>
     </div>
+    <Footer/>
       
     </>
   )

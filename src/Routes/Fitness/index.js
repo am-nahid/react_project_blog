@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, LogoMobile, TopNavigation } from '../../Components'
+import { Footer, Logo, LogoMobile, TopNavigation } from '../../Components'
 import FitArticleList from './FitArticleList'
 import FitTopPost from './FitTopPost'
 import Store from '../../Utility/ContextStore/contextAPI'
@@ -21,6 +21,7 @@ const Fitness = () => {
     </div>
     </div>
     </div>
+    <Footer/>
       
     </>
   )

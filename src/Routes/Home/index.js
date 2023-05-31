@@ -1,11 +1,9 @@
-import React, { useContext } from "react";
-import { Logo, TopNavigation , LogoMobile} from "../../Components";
+import React from "react";
+import { Logo, TopNavigation , LogoMobile, Footer} from "../../Components";
 import Banner from "./Banner";
 import Latest from "./Latest";
 import LatestArticle from "./LatestArticle";
-import Store, { AppData } from "../../Utility/ContextStore/contextAPI";
-import LatestStories from "./LatestStories";
-import Advertisement from "./Advertisement";
+import Store from "../../Utility/ContextStore/contextAPI";
 import "../../App.css";
 import TopPots from "./TopPsts";
 
@@ -31,6 +29,7 @@ const Home = () => {
           </div>
         </div>
       </Store>
+      <Footer/>
     </>
   );
 };

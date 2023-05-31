@@ -300,6 +300,7 @@ opacity: 0.24;
 
 .loadMore{
   padding-top: 2rem;
+  display: none;              /*Modified*/
 }
 
 .arrowText{
@@ -398,6 +399,7 @@ width: 100%;
 .TopPstsPar{
   grid-column: span 1;
   margin-top: 75px;
+  padding-bottom: 3rem;        /*Modified*/
 }
 
 .heading{
@@ -411,7 +413,7 @@ width: 100%;
 
 .topPostImgSmall{
   height: 104px;
-  width: 101px;
+  min-width: 101px;          /*Modified*/
 }
 
 .TopPostsSmallCon{
@@ -432,6 +434,7 @@ font-size: 12px;
   /* width: 80%; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
+  padding-bottom: 4rem;                             /*Modified*/
 
 }
 
@@ -671,5 +674,9 @@ min-width: 100%;
 
 .getStarted{
   display: block;
+}
+
+.TopPostAd{
+  padding-top: 0;       /*Modified*/
 }
   }    

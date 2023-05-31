@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, TopNavigation,LogoMobile } from '../../Components'
+import { Logo, TopNavigation,LogoMobile, Footer } from '../../Components'
 import TechArticleList from './TechArticleList'
 import TechTopPost from './TechTopPost'
 import Store from '../../Utility/ContextStore/contextAPI'
@@ -20,7 +20,7 @@ const Technology = () => {
     </div>
     </div>
     </div>
-      
+      <Footer/>
     </>
   )
 }

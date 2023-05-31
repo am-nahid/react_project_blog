@@ -23,7 +23,8 @@
 } */
 
 .commonContainer{
-    width: 40%;
+    /* width: 40%; */
+    width: 50%;
     background-color: #f2f2f2;
     border: 1px solid #ccc;
     border-radius: 13px;
@@ -67,7 +68,7 @@
     /* padding: 10px 0px; */
     padding-bottom: 2rem;
     padding-top: 1rem;
-    width: 90%;
+    /* width: 90%; */
 }
 
 .descrip{
@@ -101,5 +102,10 @@
     right: 2rem;
     top: 2rem;
 
+}
+
+
+.blogDescrCont{
+    padding-bottom: 3rem;
 }
 
