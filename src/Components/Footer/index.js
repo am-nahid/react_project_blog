@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="TheFBollywood"><a className="Flinks" href="https://www.bollywoodhungama.com/movies/top-100-movies/">Bollywood</a></div>
         <div className="TheFHollywood"><a className="Flinks" href="https://www.themoviedb.org/movie">Hollywood</a></div>
         <div className="TheFTechnology"><a className="Flinks" href="https://www.cnet.com/news/">Technology</a></div>
-        <di className="TheFFitness"><a className="Flinks" href="https://www.precisionnutrition.com/blog">Fitness</a></di>
+        <div className="TheFFitness"><a className="Flinks" href="https://www.precisionnutrition.com/blog">Fitness</a></div>
         <div className="TheFFood"><a className="Flinks" href="https://pinchofyum.com/blog">Food</a></div>
       </div>
       </div>
