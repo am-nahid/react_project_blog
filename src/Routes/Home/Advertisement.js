@@ -4,7 +4,7 @@ import '../../App.css'
 
 const Advertisement = () => {
   return (
-    <div className='Ad'>
+    <div className='Advertisement'>
         <h1>Advertisement</h1>
       
     </div>

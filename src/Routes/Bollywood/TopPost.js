@@ -61,7 +61,7 @@ function TopPost() {
       
       </div>
       <div className="TopPostAd">
-        <Advertisement />
+        <Advertisement style={{height: "600px"}}/>
       </div>
     </div>
   );
